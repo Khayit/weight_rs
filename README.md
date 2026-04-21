@@ -6,9 +6,10 @@ FastAPI service for reading the current weight from scales over a serial port.
 
 ```bash
 python -m venv venv
-venv\Scripts\activate
+source venv\bin\activate
 pip install -r requirements.txt
-copy storage\.env.dist storage\.env
+cp storage/.env.dist storage/.env
+nano storage/.env
 ```
 
 Edit `storage/.env`:
