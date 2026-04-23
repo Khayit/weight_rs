@@ -6,6 +6,12 @@ Create a service file:
 sudo nano /etc/systemd/system/weight_rs.service
 ```
 
+Or copy example
+
+```bash
+sudo cp storage/weight_rs.service /etc/systemd/system/weight_rs.service
+```
+
 Example service:
 
 ```ini

@@ -1,5 +1,6 @@
 storage/**
 !storage/.env.dist
+!storage/weight_rs.service
 .idea/
 .venv/
 __pycache__/
